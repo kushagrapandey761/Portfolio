@@ -4,7 +4,7 @@ import homeImg from "@/assets/icons/home.png";
 export default function MainHeader() {
   return (
     <>
-      <header className="bg-white">
+      <header className="">
         <nav
           className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
           aria-label="Global"
@@ -38,16 +38,15 @@ export default function MainHeader() {
             </button>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
-            
             <Link
               href="/projects"
-              className="text-sm font-semibold leading-6 text-gray-900"
+              className="text-sm font-semibold leading-6 text-[#EEEEEE]"
             >
               My Projects
             </Link>
             <Link
               href="/contact"
-              className="text-sm font-semibold leading-6 text-gray-900"
+              className="text-sm font-semibold leading-6 text-[#EEEEEE]"
             >
               Contact Me
             </Link>
