@@ -19,6 +19,7 @@ module.exports = {
     fontFamily: {
       playwrite: ["Playwrite GB S", "serif"],
       caveat: ["Caveat", "serif"],
+      arima:["Arima","system-ui"]
     },
     extend: {
       keyframes: {
@@ -35,7 +36,7 @@ module.exports = {
           "100%": { opacity: "100", tranform: "translateY(0)" },
         },
         "custom-stop": {
-          "0%": { opacity: "0", transform: "translateX(-10rem)" },
+          "0%": { opacity: "1", transform: "translateX(-50rem)" },
           "30%": { transform: "translateX(0%)" },
           "30%": { transform: "rotateZ(30deg)" },
           "100%": { opacity: "1", transform: "rotateZ(0deg)" },

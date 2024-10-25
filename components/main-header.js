@@ -39,16 +39,16 @@ export default function MainHeader() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             <Link
+              href="/about"
+              className="text-sm font-semibold leading-6 text-[#EEEEEE]"
+            >
+              About Me
+            </Link>
+            <Link
               href="/projects"
               className="text-sm font-semibold leading-6 text-[#EEEEEE]"
             >
               My Projects
-            </Link>
-            <Link
-              href="/contact"
-              className="text-sm font-semibold leading-6 text-[#EEEEEE]"
-            >
-              Contact Me
             </Link>
           </div>
         </nav>
