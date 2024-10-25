@@ -8,7 +8,7 @@ import linkedinImg from "@/assets/icons/linkedin.png";
 export default function Footer() {
   return (
     <>
-      <div className="flex justify-center mt-[200px] pb-[50px] animate-fade-slide-in-top">
+      <div className="flex justify-center mt-[150px] pb-[50px] animate-fade-slide-in-top">
         <div className="relative border bg-[#FFB38E] border-gray-400 rounded-3xl p-3 flex justify-center items-center w-fit overflow-hidden">
           <div className="flex flex-row items-center h-[50px] space-x-2">
             <Link href="https://github.com/thundergaming761">
