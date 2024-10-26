@@ -1,21 +1,23 @@
 import Card from "@/components/card";
 export default function Projects() {
   return (
-    <main className="flex flex-col items-center ">
+    <main className="flex flex-col items-center px-4 md:px-8 lg:px-16">
       <Card
-        className="box"
+        className="box max-w-sm sm:max-w-md lg:max-w-lg my-4 sm:my-6 lg:my-8"
         title="Aimlabs"
         description="An interactive web-based game designed to enhance users’ reaction times and accuracy. It has a dynamic interface with 9 spheres, where any 3 spheres are initially visible. Clicking on visible spheres causes them to disappear. Randomly
 selects and displays one of the hidden spheres after each click."
         link="https://aimlabs-inky.vercel.app/"
       />
       <Card
+        className="box max-w-sm sm:max-w-md lg:max-w-lg my-4 sm:my-6 lg:my-8"
         title="Accident detection system"
         description="A frontend dashboard for an accident detection system using React allowing users to upload accident videos
 for analysis. Has a seamless user experience and intuitive dashboard design for accurate accident reporting and analysis."
         link="https://github.com/thundergaming761/Accident-Detection-System"
       />
       <Card
+        className="box max-w-sm sm:max-w-md lg:max-w-lg my-4 sm:my-6 lg:my-8"
         title="Coin flip simulation"
         description="Utilizes Monte Carlo methods to simulate a large number of coin flips. Recorded and displayed the results of each flip
 (number of heads and tails). Applies Markov chain techniques to predict the outcome of the next coin flip. Analyzed the sequence of flips to estimate
